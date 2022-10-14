@@ -1,0 +1,84 @@
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+h2 {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100px; */
+  text-align: center;
+  font-size: xx-large;
+  border: 2px solid;
+}
+
+h3 {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  font-size: x-large;
+  border: 3px solid;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#humanScore,
+#cpuScore {
+  width: 100%;
+  display: flex;
+  font-size: xx-large;
+}
+
+#gameButtons {
+  background-color: #57cc99;
+  display: flex;
+  justify-content: space-around;
+}
+
+#newGameDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+#newGame {
+  background-color: lightskyblue;
+  width: 100%;
+}
+
+#scoresDiv {
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+}
+
+button {
+  background-color: skyblue;
+  width: 100px;
+  height: 50px;
+  font-size: large;
+  font-weight: 900;
+  border-radius: 25px;
+  border: 3px solid;
+}
+img {
+  height: 300px;
+  width: 100%;
+}
+#gameStatus,
+#gameStatus2,
+#gameStatus3 {
+  background-color: darkgrey;
+  text-align: center;
+  font-size: x-large;
+  border: 2px solid white;
+}
+body {
+  background-color: #8a817c;
+}
+
+#gameStatus {
+  margin-top: 10px;
+}
